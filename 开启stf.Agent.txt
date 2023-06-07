@@ -1,0 +1,1 @@
+adb shell export CLASSPATH="package:/data/app/jp.co.cyberagent.stf-kV7HAL4NSDzzfBigua3EgA==/base.apk";exec app_process /system/bin jp.co.cyberagent.stf.Agent
