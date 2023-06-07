@@ -268,7 +268,7 @@ while True:
                 _, out = resnet101(img)
                 图片张量 = 图片张量[1:300, :]
                 操作序列 = 操作序列[1:300]
-                操作序列 = np.append(操作序列, 动作)con
+                操作序列 = np.append(操作序列, 动作)
                 图片张量 = torch.cat((图片张量, out.reshape(1, 6 * 6 * 2048)), 0)
 
             # 操作张量 = torch.from_numpy(操作序列.astype(np.int64)).cuda(device)
